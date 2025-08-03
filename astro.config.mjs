@@ -6,5 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), sitemap()],
-  site: 'https://nothing.mvze.net',
+  site: 'https://usenothing.com',
 });

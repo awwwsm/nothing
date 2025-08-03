@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nothing.mvze.net/sitemap-index.xml
+Sitemap: https://usenothing.com/sitemap-index.xml
