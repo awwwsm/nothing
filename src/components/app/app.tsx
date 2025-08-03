@@ -15,7 +15,7 @@ export function App() {
     else window.location.href = '/start';
   };
 
-  const presets = [1, 2, 3, 4, 5, 10, 15, 20, 25, 30];
+  const presets = [1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 45, 60];
 
   return (
     <Container>
@@ -107,7 +107,7 @@ export function App() {
           .<br />
           Code available on{' '}
           <a
-            href="https://github.com/remvze/nothing"
+            href="https://github.com/awwwsm/nothing"
             rel="noreferrer"
             target="_blank"
           >

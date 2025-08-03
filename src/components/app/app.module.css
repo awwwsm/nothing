@@ -23,9 +23,9 @@
   & .hero {
     & img {
       display: block;
-      width: 36px;
-      height: 36px;
-      margin-bottom: 16px;
+      width: 28px;
+      height: 28px;
+      margin-bottom: 20px;
     }
 
     & h2 {
@@ -176,22 +176,24 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 16px;
+    margin-top: 20px;
 
     & .preset {
       display: flex;
       padding: 8px 16px;
-      font-size: var(--font-xsm);
-      font-weight: 500;
+      font-family: var(--font-serif);
+      font-size: var(--font-base);
       color: var(--color-foreground);
       text-decoration: none;
-      background: linear-gradient(
-        var(--color-neutral-50),
-        var(--color-neutral-100)
-      );
-      border: 1px solid var(--color-neutral-100);
+      background: var(--color-neutral-50);
+      border: 1px solid var(--color-neutral-200);
       border-radius: 100px;
-      box-shadow: inset 0 -1px 0 var(--color-neutral-200);
+      transition: 0.2s;
+
+      &:hover {
+        background: var(--color-neutral-100);
+        transform: translateY(-2px);
+      }
     }
   }
 }
